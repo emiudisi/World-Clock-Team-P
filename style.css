@@ -1,7 +1,34 @@
-* {
-    box-sizing: border-box;
+body{
+   background-color:#0F153B;
 }
 
-.clock {
-    margin-top: 100px
+h3{
+    color:#E28317;
+    font-family: 'Luckiest Guy', cursive
 }
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin:150px;
+}
+/*Styling for the search box*/ 
+input{
+    border: #E28317;
+    border-width:5px;
+    border-style:solid;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+/*Styling for the boxes */ 
+.textbox{
+width:4em;
+margin: 20px 40px 20px 40px;
+border: #E28317;
+border-width:5px;
+border-style:solid;
+padding:4em
+
